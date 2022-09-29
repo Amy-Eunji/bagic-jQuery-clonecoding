@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/620a1f1ff8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fa-brands fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src="../video/summer.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Meta Data -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#Summer</li>
+            <li>#Video</li>
+            <li>#Holiday</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              🏄‍♀️Happy Summer vacation holiday; 휴가 마려운 영상 ❤️은지랑
+              용준이랑 코코❤️랑 제주여행 갈꺼ㅇF! 본격 여행가고싶은 마음 담은
+              영상 뉸누 화목한 우리 세가족🤍
+            </span>
+            <button class="moreBtn">
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Action -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fa-solid fa-thumbs-up"></i>
+              <span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-solid fa-thumbs-down"></i>
+              <span>0</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-solid fa-share"></i>
+              <span>Share</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-solid fa-plus"></i>
+              <span>Save</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fa-solid fa-font-awesome"></i>
+              <span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <div class="channel">
+          <div class="metadata">
+            <img class="img" src="../image/eunji.png" alt="" />
+            <div class="info">
+              <span class="name">은_vely</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up Next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="../image/1.png" alt="" /></div>
+            <div class="info">
+              <span class="title">
+                [그시절] 나의 오래된 MP3 속,2000년대 노래모음
+              </span>
+              <span class="name">나의 플레이 리스트</span>
+              <span class="views">95K views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="../image/2.png" alt="" /></div>
+            <div class="info">
+              <span class="title">
+                [playlist] 들으면 기분 좋아지는 디즈니/픽사 ost 모음 🏰✨
+              </span>
+              <span class="name">디즈니</span>
+              <span class="views">80K</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="../image/3.png" alt="" /></div>
+            <div class="info">
+              <span class="title">
+                최고의 릴랙싱 피아노 스튜디오 지브리 컴플리트 컬렉션 🎵
+              </span>
+              <span class="name">지브리 스튜디오</span>
+              <span class="views">14K</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
